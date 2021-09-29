@@ -1,0 +1,40 @@
+<html>
+<head>
+    <title>Authors</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<br>
+<div>
+    Для добавления автора введите информацию о нем:
+    <form method="post" action="/author/create">
+        <input type="text" name="firstName" placeholder="Имя" />
+        <input type="text" name="lastName" placeholder="Фамилия" />
+        <input type="text" name="middleName" placeholder="Отчество" />
+        <input type="text" name="birthDate" placeholder="Дата рождениея" />
+        <button type="submit">Добавить</button>
+    </form>
+</div>
+<br>
+<br>
+<div>
+    Для удаления автора введите информацию о нем:
+    <form method="post" action="/author/delete">
+        <input type="text" name="firstName" placeholder="Имя" />
+        <input type="text" name="lastName" placeholder="Фамилия" />
+        <input type="text" name="middleName" placeholder="Отчество" />
+        <input type="text" name="birthDate" placeholder="Дата рождениея" />
+        <button type="submit">Удалить</button>
+    </form>
+</div>
+<br>
+{{#authors}}
+    <div>
+        {{firstName}}
+        {{lastName}}
+        {{middleName}}
+        {{birthDate}}
+    </div>
+{{/authors}}
+</body>
+</html>

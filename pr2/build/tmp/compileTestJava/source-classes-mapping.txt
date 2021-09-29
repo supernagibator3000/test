@@ -1,0 +1,4 @@
+com/example/pr2/services/AuthorServiceTest.java
+ com.example.pr2.services.AuthorServiceTest
+com/example/pr2/services/BookServiceTest.java
+ com.example.pr2.services.BookServiceTest

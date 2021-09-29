@@ -1,0 +1,32 @@
+<html>
+<head>
+    <title>Books</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<br>
+<div>
+    Для добавления книги введите информацию о ней:
+    <form method="post" action="/book/create">
+        <input type="text" name="name" placeholder="Название" />
+        <button type="submit">Добавить</button>
+    </form>
+</div>
+<br>
+<br>
+<div>
+    Для удаления книги введите информацию о ней:
+    <form method="post" action="/book/delete">
+        <input type="text" name="name" placeholder="Название" />
+        <button type="submit">Удалить</button>
+    </form>
+</div>
+<br>
+{{#books}}
+    <div>
+        <b>{{name}}</b>
+        <i>{{creationDate}}</i>
+    </div>
+{{/books}}
+</body>
+</html>

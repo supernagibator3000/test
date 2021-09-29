@@ -1,0 +1,14 @@
+com/example/pr2/Pr2Application.java
+ com.example.pr2.Pr2Application
+com/example/pr2/models/Book.java
+ com.example.pr2.models.Book
+com/example/pr2/models/Author.java
+ com.example.pr2.models.Author
+com/example/pr2/services/AuthorService.java
+ com.example.pr2.services.AuthorService
+com/example/pr2/services/BookService.java
+ com.example.pr2.services.BookService
+com/example/pr2/controllers/AuthorController.java
+ com.example.pr2.controllers.AuthorController
+com/example/pr2/controllers/BookController.java
+ com.example.pr2.controllers.BookController

@@ -1,0 +1,16 @@
+package com.example.pr2;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+/**
+ * Класс приложения
+ */
+@SpringBootApplication
+public class Pr2Application {
+
+	public static void main(String[] args) {
+		SpringApplication.run(Pr2Application.class, args);
+	}
+
+}
