@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.example.pr2"},{"l":"com.example.pr2.controllers"},{"l":"com.example.pr2.models"},{"l":"com.example.pr2.services"}];updateSearchResults();
